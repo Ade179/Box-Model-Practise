@@ -1,0 +1,74 @@
+
+
+.container {
+  justify-content: center;
+  border: 2px solid red;
+  max-width: 100%;
+  padding: 1%;
+  padding-top: 30px;
+  height: auto;
+  animation-name: jaybaba;
+  animation-duration: 7s;
+  border-radius: 22px;
+
+
+}
+.Identity {
+  border: 3px solid red;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 7px;
+  border-radius: 22px;
+}
+.lorem {
+  border: 3px solid red;
+  margin-top: 20px;
+  font-size: large;
+  padding: 12px;
+  border-radius: 12px;
+}
+.box {
+  border: 2px solid red;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 6px;
+}
+.list {
+  border: 3px solid red;
+  font-size: large;
+}
+.list1 {
+  border: 2px solid red;
+  font-weight: 500;
+}
+
+#btn,
+.linkup {
+  border: 3px solid red;
+}
+
+a:hover {
+  background-color: red;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: blue;
+}
+a:active {
+  color: yellow;
+}
+
+#btn{
+    padding:8px;
+    font-weight: 700;
+}
+.linkup{
+    padding: 8px;
+}
+@keyframes jaybaba {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
